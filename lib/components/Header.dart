@@ -9,17 +9,17 @@ class Header extends StatelessWidget {
 
     return Container(
       width: size.width,
-      height: 250,
-      padding: EdgeInsets.fromLTRB(100, 80, 100, 0),
+      height: 200,
+      padding: EdgeInsets.fromLTRB(50, 40, 50, 0),
       color: Colors.white,
       child: Column(
         children: [
           Text(
             'Boa tarde, Lays',
             style: TextStyle(
-                fontSize: 16,
+                fontSize: 20,
                 fontWeight: FontWeight.bold,
-                color: Colors.grey[400]),
+                color: Colors.grey[500]),
           ),
           const SizedBox(height: 20),
           Text(
